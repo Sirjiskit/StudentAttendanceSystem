@@ -1,0 +1,46 @@
+body {
+    background-color: #fff
+}
+
+#auth {
+    height: 100vh;
+    overflow-x: hidden
+}
+
+#auth #auth-right {
+    height: 100%;
+    background: url(../../images/bg/bg.png) no-repeat, linear-gradient(90deg, #C7E7F8, #76C3ED);
+    background-position: center;
+    object-fit: cover;
+}
+
+#auth #auth-left {
+    padding: 5rem 6rem;
+}
+
+#auth #auth-left .auth-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#auth #auth-left .auth-subtitle {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #a8aebb;
+    text-align: center;
+}
+
+#auth #auth-left .auth-logo {
+    margin-bottom: 2rem
+}
+
+#auth #auth-left .auth-logo img {
+    height: 2rem
+}
+
+@media screen and (max-width:767px) {
+    #auth #auth-left {
+        padding: 2rem
+    }
+}
